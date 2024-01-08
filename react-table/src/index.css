@@ -101,8 +101,31 @@ tbody tr:nth-child(2n) {
   background: rgba(0, 0, 0, 0.05);
 }
 
+.table{
+  margin-bottom: 10px;
+}
 
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.pagination span{
+  display: flex;
+  gap: 10px;
+}
+.btn{
+  border: 1px solid grey;
+
+  &:hover{
+    background: rgba(0, 0, 0, 0.1);
+  }
+  &:active{
+    background: rgba(0, 0, 0, 0.2);
+    transform: translateX(1px);
+  }
+}
 
 
 
